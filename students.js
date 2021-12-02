@@ -13,9 +13,7 @@ function add_student() {
     let idpr = prompt("please enter your id")
     let namepr = prompt("please enter your name")
     let lastNamepr = prompt("please enter your lastName")
-
-
-    // students.push(idpr)
+        document.getElementById("mainTable").innerText=idpr
     // students.push(namepr)
     // students.push(lastNamepr)
 
