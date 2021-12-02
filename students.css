@@ -17,3 +17,7 @@ td {
 .buttonControl{
     text-align: center;
 }
+.action{
+    display: flex;
+    flex-direction: row;
+}

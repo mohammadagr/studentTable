@@ -15,8 +15,8 @@
 <div class="wholeContent" id="mainContainer">
     <div class="tableBody" id="table">
         <div class="buttonControl">
-            <button onclick="renderTable(this)" id="displayTable">show Table</button>
-            <button onclick="add_student(this)" id="add">addStudent</button>
+            <button onclick="renderTable()" id="displayTable">show Table</button>
+            <button onclick="add_student()" id="add">addStudent</button>
         </div>
         <table id="mainTable">
             <thead>
@@ -24,7 +24,7 @@
                 <td>Id</td>
                 <td>Name</td>
                 <td>LastName</td>
-                <td>Action</td>
+                <td class="action">Action</td>
             </tr>
             </thead>
             <tbody id="tableTbody">
