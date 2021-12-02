@@ -8,32 +8,54 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
-    <title>Document</title>
+    <title>studentsTable</title>
+    <link rel="stylesheet" href="students.css">
 </head>
 <body>
-<table>
-    <thead>
-    <tr>
-        <th>Name</th>
-        <th>Age</th>
-        <th>Height</th>
-        <th>Location</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td>Stephen Curry</td>
-        <td>27</td>
-        <td>1,91</td>
-        <td>Akron, OH</td>
-    </tr>
-    <tr>
-        <td>Klay Thompson</td>
-        <td>25</td>
-        <td>2,01</td>
-        <td>Los Angeles, CA</td>
-    </tr>
-    </tbody>
-</table>
+<div class="wholeContent" id="mainContainer">
+    <div class="tableBody" id="table">
+        <table id="mainTable">
+            <thead>
+            <tr class="trTable">
+                <td>Id</td>
+                <td>Name</td>
+                <td>LastName</td>
+                <td>Action</td>
+            </tr>
+            </thead>
+            <tbody id="tableTbody">
+            <tr>
+                <td> 1</td>
+                <td>Mohammad</td>
+                <td>Majid</td>
+                <td><button> add or remove</button></td>
+            </tr>
+            <tr>
+                <td> 2</td>
+                <td>Ali</td>
+                <td>Ahmadi</td>
+                <td><button> add or remove</button></td>
+            </tr>
+            <tr>
+                <td> 3</td>
+                <td>Reza</td>
+                <td>Hosseini</td>
+                <td><button> add or remove</button></td>
+            </tr>
+            <tr>
+                <td> 4</td>
+                <td>Mahdi</td>
+                <td>Torabi</td>
+                <td><button> add or remove</button></td>
+            </tr>
+            </tbody>
+        </table>
+
+
+    </div>
+
+</div>
+
 </body>
+<script src="students.js"></script>
 </html>
