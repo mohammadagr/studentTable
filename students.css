@@ -1,0 +1,20 @@
+#mainTable{
+
+}
+td{
+    text-align: center;
+}
+thead{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#updateBtn{
+    background: #80ffbf;
+    font-size: 16px;
+    border: none;
+    margin-top: 5px;
+}
+tr:nth-child(even){
+    background-color: #80ffbf;
+}
